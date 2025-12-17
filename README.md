@@ -1,4 +1,5 @@
 # Psnook
 Website for Pumpsnooki
 
-<img src="[image_path.jpg](https://github.com/PumpSnooki/Psnook/blob/main/redguy.jpg?raw=true)" alt="Description of the image">
+<img src="https://github.com/PumpSnooki/Psnook/blob/6048eb2508d55bb8b2150e2812ef50e9e0b86ea9/redguy.jpg" alt="Description of the image">
+
