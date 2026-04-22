@@ -7,6 +7,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;600;700&display=swap" rel="stylesheet" />
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2485784843923302" crossorigin="anonymous"></script>
   <style>
     :root {
       --bg: #0a0a0f;
@@ -314,6 +316,30 @@
       background: linear-gradient(90deg, transparent, var(--border), transparent);
     }
 
+    /* Ad units */
+    .ad-unit {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .ad-label {
+      font-size: 0.65rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--muted);
+      opacity: 0.5;
+      align-self: center;
+    }
+
+    .ad-unit ins {
+      width: 100%;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
     @media (max-width: 420px) {
       .social-row { flex-direction: column; }
     }
@@ -331,6 +357,18 @@
       <h1>Psnook</h1>
       <p class="tagline">Website for Pumpsnooki</p>
     </header>
+
+    <!-- Ad Unit 1: Below header -->
+    <div class="ad-unit">
+      <span class="ad-label">Advertisement</span>
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-2485784843923302"
+           data-ad-slot="auto"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
 
     <!-- Streaming Platforms -->
     <section class="stream-section">
@@ -407,6 +445,18 @@
       </div>
     </section>
   </main>
+
+  <!-- Ad Unit 2: Above footer -->
+  <div class="ad-unit" style="position:relative;z-index:1;width:100%;max-width:680px;padding:0 24px 24px;">
+    <span class="ad-label">Advertisement</span>
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-2485784843923302"
+         data-ad-slot="auto"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
 
   <footer>
     <p>© 2025 Pumpsnooki · All rights reserved</p>
